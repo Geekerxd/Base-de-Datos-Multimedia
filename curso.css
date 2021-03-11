@@ -364,7 +364,7 @@ div.contenidoCurso iframe{
 
 div.contenidoCurso div.inscripcionCurso{
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 div.contenidoCurso div.inscripcionCurso button.btnInscripcion{
@@ -384,7 +384,102 @@ div.contenidoCurso div.inscripcionCurso button.btnInscripcion{
     font-weight: bold;
 }
 
+div.contenidoCurso div.inscripcionCurso button.btnInscripcion a{
+  color: #204c73;
+}
+
 div.contenidoCurso div.inscripcionCurso button.btnInscripcion:hover{
     background-color: #f0ab6f;
     
 }
+
+div.contenidoCurso div.niveldeCurso{
+  margin-bottom: 40px;
+  background-color: #275d8c59;
+  border: #275d8c59 solid 1px;
+  border-radius: 20px;
+  font-family: 'Roboto',sans-serif;
+}
+
+div.contenidoCurso div.niveldeCurso h1{
+  text-align: center;
+}
+
+div.contenidoCurso div.niveldeCurso #numNivel{
+  background-color: #204c73;
+  color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+div.contenidoCurso div.niveldeCurso #nombreNivel{
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+div.contenidoCurso div.niveldeCurso p{
+  margin-left: 20px;
+  text-align: justify;
+  max-width: 95%;
+}
+
+div.contenidoCurso div.niveldeCurso a{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+/* //////////////////////////////////////////////////////////////////////
+    //////////////// SECCION DE COMENTARIOS//////////////// ///////////////////////// 
+    ///////////////////////////////////////////////////////////////////////////*/
+  
+  div.comentariosCurso #comentCurso{
+    margin-bottom: 20px;
+    border-bottom: #F29849 solid 3px;
+  }
+
+  div.comentariosCurso div.card-comentarios{
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+      background-color: white;
+      border-style: outset;
+      border-width: 5px;
+      border-radius: 10px;
+      border-bottom-color: #F29849;
+      border-right-color: #F29849;
+      border-top-color: #204c73;
+      border-left-color: #204c73;
+  }
+
+  /* titulo de la noticia */
+  div.card-comentarios div.card-header{
+      font-size: 20px;
+      font-family: 'Roboto', sans-serif;
+      background-color: #204c73;
+      color: white;
+  } 
+
+  div.card-comentarios div.card-header img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+  }
+
+  /* resumen de la noticia */
+  div.card-comentarios div.card-body{
+      font-size: 15px;
+      font-family: 'Roboto', sans-serif;
+  }
+
+  /* tiempo de publicacion */
+  div.card-comentarios div.card-footer{
+      font-size: 15px;
+      font-family: 'Roboto', sans-serif;
+      background-color: #204c73;
+      text-align: right;
+      color: white;
+  } 
+
+ 
