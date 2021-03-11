@@ -251,9 +251,9 @@ div.secDescripcion{
     border-radius: 10px;
 }
 
-div.secDescripcion h1{
+div.secDescripcion h3{
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
     background-color: #275d8c59 ;
     padding-bottom: 10px;
     font-family: 'Roboto', sans-serif;
@@ -262,26 +262,29 @@ div.secDescripcion h1{
 }
 
 div.secDescripcion div.imgDescripcion{
-    width: 522px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 10px;
     margin-bottom: 10px;
     border-style: outset;
     border-width: 5px;
-    border-left-color: #204c73;
-    border-top-color: #204c73;
-    border-right-color: #F29849;
-    border-bottom-color: #F29849;
+    border-left-color: #275d8c59;
+    border-top-color: #275d8c59;
+    border-right-color: #275d8c59;
+    border-bottom-color: #275d8c59;
     border-radius: 5px;
+    display: inline-flex;
+    
 }
 
 div.secDescripcion div.imgDescripcion img{
-  max-width: 512px;
-}
+    max-width: 512px;
+  }
 
-div.secDescripcion h4{
-    text-align: center;
+div.secDescripcion h6{
+    margin: 10px;
+    text-align: justify;
     font-family: 'Roboto', sans-serif;
 }
 

@@ -232,66 +232,90 @@ body {
    }
 
 
-/*////////////////////////////////////////////////////////////////////////////////
-/////////////////////////Bienvenida a la pagina//////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////*/
 
-div.secDescripcion{
-    width: 80%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: auto;
-    margin-left: auto;
-    border-style: inset;
-    border-width: 5px;
-    border-left-color: #204c73;
-    border-top-color: #204c73;
-    border-right-color: #F29849;
-    border-bottom-color: #F29849;
-    border-radius: 10px;
-}
+   div.seccion-completa{
+       width: 90%;
+       margin-top: 20px;
+       margin-left: auto;
+       margin-right: auto;
+       display: inline-flex;
+   }
 
-div.secDescripcion h1{
-    text-align: center;
-    font-size: 50px;
-    background-color: #275d8c59 ;
-    padding-bottom: 10px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////Seccion contactos/////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////*/
+
+   div.chatsContactos{
+       border-right: #275D8C solid 1px;
+       height: 530px;
+       width: 30%;
+       margin-left: 5%;
+       font-family: 'Roboto',sans-serif;
+       overflow-y: scroll;
+   }
+
+   div.chatsContactos .buscarContacto{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    
+   }
+
+   div.chatsContactos .usuarioContacto img{
+       width: 50px;
+       height: 50px;
+   }
+
+   div.chatsContactos .usuarioContacto{
+       border-top: #204c73 solid 1px;
+       margin-top: 10px;
+   }
+
+   div.chatActual{
+        height: 530px;
+        margin-left: 20px;
+        font-family: 'Roboto',sans-serif;
+        
+   }
+
+   div.chatActual div.mensajes{
+       height: 500px;
+       overflow-y: scroll;
+   }
+
+   div.chatActual div.mensajes label{
+       background-color: #275d8c59;
+       padding: 10px;
+       border: #275d8c59 solid 1px;
+       border-radius: 5px;
+   }
+
+   div.chatActual div.mensajes label.usuario{
+       text-align: right;
+   }
+
+   div.chatActual div.opcionesMensaje{
+       width: 100%;
+       background-color: #275d8c59;
+       border: #275d8c59 solid 2px;
+       border-radius: 10px;
+   }
+
+   div.chatActual div.opcionesMensaje input{
+       width: 600px;
+       margin: 10px;
+   }
+
+   div.chatActual div.opcionesMensaje button{
+       margin-right: 10px;
+       background-color: #204c73;
+       border: #275d8c59 solid 1px;
+       border-radius: 10px;
+       color: white;
+   }
+
+   div.chatActual div.opcionesMensaje button:hover{
+    background-color: #F29849;
     color: #204c73;
-}
-
-div.secDescripcion div.imgDescripcion{
-    width: 522px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-style: outset;
-    border-width: 5px;
-    border-left-color: #204c73;
-    border-top-color: #204c73;
-    border-right-color: #F29849;
-    border-bottom-color: #F29849;
-    border-radius: 5px;
-}
-
-div.secDescripcion div.imgDescripcion img{
-  max-width: 512px;
-}
-
-div.secDescripcion h4{
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-}
+   }
 
 
-/*////////////////////////////////////////////////////////////////////////////////
-/////////////////////////cartas para cursos//////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////*/
-
-
-.material-icons.md-xx { 
-    font-size: 18px; 
-    color: #275d8c;
-}
