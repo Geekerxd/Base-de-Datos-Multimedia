@@ -232,91 +232,76 @@ body {
    }
 
 
+/*////////////////////////////////////////////////////////////////////////////////
+/////////////////////////cartas para cursos//////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////*/
 
-   div.seccion-completa{
-       width: 90%;
-       margin-top: 20px;
-       margin-left: auto;
-       margin-right: auto;
-       display: inline-flex;
-       margin-bottom: 150px;
-   }
+/* CURSOS */
+div.card-curso{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-color: white;
+    color: black;
+    border:5px outset gray;
+    border-radius: 10px;
+    display: inline-block;
+}
 
-/*//////////////////////////////////////////////////////////////////////////////////////////////////////////
-////////////////////////Seccion contactos/////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////*/
+/* titulo del curso */
+div.card-curso div.card-header{
+    font-size: 20px;
+    font-family: 'Roboto',sans-serif;
+    background-color: #275d8c59;
+}
 
-   div.chatsContactos{
-       border-right: #275D8C solid 1px;
-       height: 530px;
-       width: 30%;
-       margin-left: 5%;
-       font-family: 'Roboto',sans-serif;
-       overflow-y: scroll;
-   }
+/* imagen del curso */
+div.card-curso img.card-img{
+    display: inline-block;
+    padding: 10px;
+    width: 50%;
+}
 
-   div.chatsContactos .buscarContacto{
-        margin-bottom: 10px;
-        margin-top: 10px;
-    
-   }
+/* resumen del curso */
+div.card-curso div.card-body{
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Roboto',sans-serif;
+    width: 29%;
+}
 
-   div.chatsContactos .usuarioContacto img{
-       width: 50px;
-       height: 50px;
-   }
+/* tiempo de publicacion */
+div.card-curso div.card-footer{
+    display: inline-flex;
+    width: 100%;
+    font-size: 15px;
+    font-family: 'Roboto',sans-serif;
+    background-color: #275d8c59;
+} 
 
-   div.chatsContactos .usuarioContacto{
-       border-top: #204c73 solid 1px;
-       margin-top: 10px;
-   }
+div.card-curso div.card-footer div.fecha{
+    margin-left: auto;
+}
 
-   div.chatActual{
-        height: 530px;
-        margin-left: 20px;
-        font-family: 'Roboto',sans-serif;
-        
-   }
+.material-icons.md-xx { 
+    font-size: 18px; 
+    color: #275d8c;
+}
 
-   div.chatActual div.mensajes{
-       height: 500px;
-       overflow-y: scroll;
-   }
-
-   div.chatActual div.mensajes label{
-       background-color: #275d8c59;
-       padding: 10px;
-       border: #275d8c59 solid 1px;
-       border-radius: 5px;
-   }
-
-   div.chatActual div.mensajes label.usuario{
-       text-align: right;
-   }
-
-   div.chatActual div.opcionesMensaje{
-       width: 100%;
-       background-color: #275d8c59;
-       border: #275d8c59 solid 2px;
-       border-radius: 10px;
-   }
-
-   div.chatActual div.opcionesMensaje input{
-       width: 600px;
-       margin: 10px;
-   }
-
-   div.chatActual div.opcionesMensaje button{
-       margin-right: 10px;
-       background-color: #204c73;
-       border: #275d8c59 solid 1px;
-       border-radius: 10px;
-       color: white;
-   }
-
-   div.chatActual div.opcionesMensaje button:hover{
-    background-color: #F29849;
-    color: #204c73;
-   }
+div.card{
+    width: 100%;
+    display: inline-block;
+}
 
 
+.btn.btn-primary{
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card-text{
+
+  font-size: 20px;
+}

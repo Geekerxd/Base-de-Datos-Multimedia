@@ -1,0 +1,14 @@
+.secDescripcion {
+    width: 522px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: outset;
+    border-width: 5px;
+    border-left-color: #204c73;
+    border-top-color: #204c73;
+    border-right-color: #F29849;
+    border-bottom-color: #F29849;
+    border-radius: 5px;
+}
