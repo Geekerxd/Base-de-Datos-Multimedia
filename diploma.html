@@ -22,7 +22,7 @@
     <!--bootstrap-->
     <link rel="stylesheet" href="bootstrap/bootstrap.css" />
     <!-- CSS -->
-    <link rel="stylesheet" href="historial.css">
+    <link rel="stylesheet" href="diploma.css">
 </head>
 
 <body>
@@ -32,12 +32,38 @@
 
     <div class="secDescripcion">
         <center>
-            <h1>Dimploma</h1>
-
-            <br><br><br>
-            <button onclick="window.print()">Imprimir</button>
+            <h1 id="textHirami">Hirami</h1>
+            <img id="imgHirami" src="recursos/HiramiSVG_02.svg" alt="Hirami">
+            <br><br>
+    
+            <p>
+                Hirami otorga este diploma a
+            </p>
+    
+            <div class="nombre">
+                <input type="text" value="Usuario estudiante">
+            </div><br>
+    
+            <p>
+                por completar con exito el curso 
+            </p>
+    
+            <div class="curso">
+                <input type="text" value="PHP">
+            </div>
+            <br>
+    
+            <p>
+                16 de marzo de 2021
+            </p>
+    
+            <div class="conjunto">
+                <input id="inputMestro" type="text" value="Usuario escuela">
+                <img src="medalla.png" alt="medalla">
+                <input id="inputEstudiante" type="text" value="Usuario estudiante">
+            </div>
+            <button onclick="window.print()">Print this page</button>
         </center>
-
 
     </div>
 
